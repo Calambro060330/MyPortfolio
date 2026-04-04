@@ -63,8 +63,8 @@ const handleContactCLick = () =>{document.getElementById('contact').scrollIntoVi
           title="Full-Stack Developer"
           handle="randolphcalambro@gmail.com"
            status="Available for work"
-          avatarURL="./profile.png"
-         miniAvatarURL="./profile.png"
+          avatarURL="/profile.png"
+         miniAvatarURL="/profile.png"
           behindGlowEnabled={true}
           behindGlowColor="rgba(97, 218, 251, 0.4)"
           enableTilt={true}
