@@ -314,7 +314,7 @@ const handleContactCLick = () =>{document.getElementById('contact').scrollIntoVi
 
       <footer>
         <div className="container">
-          <p>&copy; 2024 Randolph Calambro. All rights reserved.</p>
+          <p>&copy; 2026 Randolph Calambro. All rights reserved.</p>
         </div>
       </footer>
     </div>
