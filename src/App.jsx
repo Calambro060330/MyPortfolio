@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
 import TextType from './TextType';
-
+import ProfileCard from './ProfileCard';
 
 
 function App() {
@@ -58,9 +58,15 @@ function App() {
             </div>
           </div>
           <div className="hero-image" data-aos="fade-in" data-aos-delay="100">
-            <div className="image-card">
-              <img src="/profile.png" alt="Randolph Calambro" />
-            </div>
+          <ProfileCard
+          name="Randolph Calambro"
+          title="Full-Stack Developer"
+          handle="Calambro060330"
+          avatarURL="/profile.png"
+          status="Available for work"
+          behindGlowEnabled={true}
+          behindGlowColor="rgba(97, 218, 251, 0.4)"
+          onContactClick={() => (window.location.href = '#contact')} />
           </div>
         </div>
       </section>
@@ -187,6 +193,10 @@ function App() {
               <div className="tech-card">
               <img src="/Cisco.png" alt="Cisco" />
               <p>Cisco Packet Tracer</p>
+            </div>
+            <div className="tech-card">
+              <img src="/Reactbits.png" alt="Reactbits" />
+              <p>React Bits</p>
             </div>
           </div>
         </div>
