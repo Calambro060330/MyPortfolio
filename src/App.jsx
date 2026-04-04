@@ -61,7 +61,7 @@ function App() {
           <ProfileCard
           name="Randolph Calambro"
           title="Full-Stack Developer"
-          handle="Calambro060330"
+          handle="randolphcalambro@gmail.com"
           avatarURL="/profile.png"
           status="Available for work"
           behindGlowEnabled={true}
