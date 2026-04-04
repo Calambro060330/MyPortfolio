@@ -183,7 +183,7 @@ function App() {
             </div>
               <div className="tech-card">
               <img src="/Cisco.png" alt="Cisco" />
-              <p>Cisco</p>
+              <p>Cisco Packet Tracer</p>
             </div>
           </div>
         </div>
