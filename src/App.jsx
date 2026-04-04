@@ -181,6 +181,10 @@ function App() {
               <img src="/Vite.png" alt="Vite" />
               <p>Vite</p>
             </div>
+              <div className="tech-card">
+              <img src="/Cisco.png" alt="Cisco" />
+              <p>Cisco</p>
+            </div>
           </div>
         </div>
       </section>
