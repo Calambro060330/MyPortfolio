@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
 import TextType from './TextType';
-import ProfileCard from './ProfileCard';
+import ProfileCard from './Components/ProfileCard/ProfileCard';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     });
   }, []);
 
-
+const handleContactCLick = () =>{document.getElementById('contact').scrollIntoView({behavior:'smooth'})};
 
   return (
     <div className="portfolio">
@@ -57,16 +57,18 @@ function App() {
               <a href="#projects" className="btn btn-secondary">View Projects</a>
             </div>
           </div>
-          <div className="hero-image" data-aos="fade-in" data-aos-delay="100">
+          <div className="hero-image">
           <ProfileCard
           name="Randolph Calambro"
           title="Full-Stack Developer"
           handle="randolphcalambro@gmail.com"
+           status="Available for work"
           avatarURL="/profile.png"
-          status="Available for work"
+         miniAvatarURL="/profile.png"
           behindGlowEnabled={true}
           behindGlowColor="rgba(97, 218, 251, 0.4)"
-          onContactClick={() => (window.location.href = '#contact')} />
+          enableTilt={true}
+          onContactClick={handleContactCLick}/>
           </div>
         </div>
       </section>

@@ -67,6 +67,12 @@ body {
 .hero {
     padding: 150px 0 100px;
 }
+.hero-image {
+    overflow: visible !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .hero-grid {
     display: grid;
