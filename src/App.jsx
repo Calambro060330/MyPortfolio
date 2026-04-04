@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './App.css';
 import TextType from './TextType';
 import ProfileCard from './ProfileCard';
-
+import TiltedCard from './TiltedCard';
 
 function App() {
   useEffect(() => {
@@ -79,7 +79,25 @@ const handleContactCLick = () =>{document.getElementById('contact').scrollIntoVi
         <div className="container">
           <div className="about-card">
             <div className="about-img">
-              <img src="/p2.png" alt="Working" />
+             <TiltedCard
+  imageSrc="/p2.png"
+  altText="Randolph Calambro"
+  captionText="Randolph"
+  containerHeight="300px"
+  containerWidth="300px"
+  imageHeight="300px"
+  imageWidth="300px"
+  rotateAmplitude={12}
+  scaleOnHover={1.05}
+  showMobileWarning={false}
+  showTooltip
+  displayOverlayContent
+  overlayContent={
+    <p className="tilted-card-demo-text">
+     Randolph Calambro
+    </p>
+  }
+/>
             </div>
             <div className="about-info">
               <h3>About Me</h3>
