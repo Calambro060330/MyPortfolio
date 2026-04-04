@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
 import TextType from './TextType';
-import ProfileCard from './Components/ProfileCard/ProfileCard';
+import ProfileCard from './ProfileCard';
 
 
 function App() {
