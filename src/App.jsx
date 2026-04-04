@@ -2,6 +2,9 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
+import TextType from './components/TextType';
+
+
 
 function App() {
   useEffect(() => {
@@ -34,7 +37,7 @@ function App() {
           <div className="hero-text">
             <p className="greeting" data-aos="fade-in">Hello, I'm</p>
             <h1 data-aos="fade-in" data-aos-delay="100">Randolph Calambro</h1>
-            <h2 className="role" data-aos="fade-in" data-aos-delay="200" id="typed">Full-stack Developer</h2>
+            <h2 className="role" data-aos="fade-in" data-aos-delay="200"><TextType text={["Full-stack Developer", "IT Student"]} typingSpeed={70} deletingSpeed={40} pauseDuration={2000} showCursor={true} cursorCharacter="|"variableSpeed={{min:40, max:100}}/></h2>
             <p className="description" data-aos="fade-in" data-aos-delay="200">
               I Design and develop complete web solutions from front-end interfaces to powerful back-end engines, creating smooth digital experiences.
             </p>
@@ -188,7 +191,6 @@ function App() {
           </div>
         </div>
       </section>
-
 
 
       <section id="projects" className="projects">
