@@ -82,7 +82,7 @@ const handleContactCLick = () =>{document.getElementById('contact').scrollIntoVi
              <TiltedCard
   imageSrc="/prof2.jpg"
   altText="Randolph Calambro"
-  captionText="Randolph"
+  captionText="Randolph."
   containerHeight="300px"
   containerWidth="300px"
   imageHeight="300px"
