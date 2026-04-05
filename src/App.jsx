@@ -154,67 +154,67 @@ const handleContactCLick = () =>{document.getElementById('contact').scrollIntoVi
         <div className="container">
           <h2>Tech Stack</h2>
           <div className="tech-grid">
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="100">
               <img src="/React.png" alt="React" />
               <p>React.js</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="100">
               <img src="/HTML5.png" alt="HTML" />
               <p>HTML</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="100">
               <img src="/CSS3.png" alt="CSS" />
               <p>CSS</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="100">
               <img src="/JavaScript.png" alt="JavaScript" />
               <p>JavaScript</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="100">
               <img src="/Python.png" alt="Python" />
               <p>Python</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="100">
               <img src="/GitHub.png" alt="GitHub" />
               <p>GitHub</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="200">
               <img src="/Postman.png" alt="Postman" />
               <p>Postman</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="200">
               <img src="/VS.png" alt="VS Code" />
               <p>VS Code</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="200">
               <img src="/Express.png" alt="Express" />
               <p>Express.js</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="200">
               <img src="/MongoDB.png" alt="MongoDB" />
               <p>MongoDB</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="200">
               <img src="/Node.js.png" alt="Node.js" />
               <p>Node.js</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="200">
               <img src="/Figma.png" alt="Figma" />
               <p>Figma</p>
             </div>
-             <div className="tech-card">
+             <div className="tech-card" data-aos="fade-up" data-aos-delay="300">
               <img src="/Render.png" alt="Render" />
               <p>Render</p>
             </div>
-             <div className="tech-card">
+             <div className="tech-card" data-aos="fade-up" data-aos-delay="300">
               <img src="/Vite.png" alt="Vite" />
               <p>Vite</p>
             </div>
-              <div className="tech-card">
+              <div className="tech-card" data-aos="fade-up" data-aos-delay="300">
               <img src="/Cisco.png" alt="Cisco" />
               <p>Cisco Packet Tracer</p>
             </div>
-            <div className="tech-card">
+            <div className="tech-card" data-aos="fade-up" data-aos-delay="300">
               <img src="/Reactbits.png" alt="Reactbits" />
               <p>React Bits</p>
             </div>

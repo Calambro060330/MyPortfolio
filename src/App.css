@@ -285,9 +285,12 @@ body {
 .skills-section {
     padding: 100px 0;
 }
+.skills-section h2 {
+    color: var(--primary);
+}
 
 .section-subtitle {
-    color: var(--text-muted);
+    color: var(--white);
     margin-bottom: 40px;
 }
 .skills-grid {
@@ -310,6 +313,7 @@ body {
 
 .tech h2 {
   margin-bottom: 25px;
+  color: var(--primary);
 }
 .tech-grid {
   display: grid;
