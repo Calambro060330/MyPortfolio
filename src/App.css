@@ -303,9 +303,9 @@ body {
     border-radius: 10px;
 }
 .tech {
-  background: #fefefe;
-  padding: 90px 0;
-  color: black;
+  background: var(--bg-dark);
+  padding: 100px 0;
+  color: rgb(245, 245, 245);
 }
 
 .tech h2 {
@@ -314,10 +314,10 @@ body {
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 18px;
+  gap: 18px;    
 }
 .tech-card {
-  background: #1e293b;
+  background: var(--white);
   border-radius: 12px;
   padding: 18px 10px;
   text-align: center;
@@ -332,7 +332,7 @@ body {
 
 .tech-card p {
   font-size: 12px;
-  color: #cbd5f5;
+  color:var(--text-muted);
 }
 
 .tech-card:hover {

@@ -61,7 +61,7 @@ const handleContactCLick = () =>{document.getElementById('contact').scrollIntoVi
           <ProfileCard
           name="Randolph Calambro"
           title="Full-Stack Developer"
-          handle="randolphcalambro"
+          handle="randolph"
            status="Available for work"
           avatarURL="/profile.png"
          miniAvatarURL="/profile.png"
@@ -80,7 +80,7 @@ const handleContactCLick = () =>{document.getElementById('contact').scrollIntoVi
           <div className="about-card">
             <div className="about-img">
              <TiltedCard
-  imageSrc="/p2.png"
+  imageSrc="/prof2.jpg"
   altText="Randolph Calambro"
   captionText="Randolph"
   containerHeight="300px"
