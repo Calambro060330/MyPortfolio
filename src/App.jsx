@@ -11,6 +11,7 @@ function App() {
     AOS.init({
       duration: 800,
       once: false,
+      mirror: true,
     });
   }, []);
 
@@ -52,7 +53,7 @@ const handleContactCLick = () =>{document.getElementById('contact').scrollIntoVi
                 <i className="fab fa-facebook"></i> Facebook
               </a>
             </div>
-            <div className="cta-group" data-aos="fade-in" data-aos-delay="400">
+            <div className="cta-group">
               <a href="#contact" className="btn btn-primary">Contact Me</a>
               <a href="#projects" className="btn btn-secondary">View Projects</a>
             </div>
