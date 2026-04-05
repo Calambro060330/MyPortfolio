@@ -61,7 +61,7 @@ const handleContactCLick = () =>{document.getElementById('contact').scrollIntoVi
           <ProfileCard
           name="Randolph Calambro"
           title="Full-Stack Developer"
-          handle="randolphcalambro@gmail.com"
+          handle="randolphcalambro"
            status="Available for work"
           avatarURL="/profile.png"
          miniAvatarURL="/profile.png"
