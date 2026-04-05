@@ -322,13 +322,14 @@
 .pc-handle {
   font-size: 14px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(226, 225, 233, 0.9);
   line-height: 1;
 }
 
 .pc-status {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.7);
+   color: rgba(18, 0, 122, 0.9);
+
   line-height: 1;
 }
 
@@ -338,7 +339,7 @@
   padding: 12px 16px;
   font-size: 12px;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.9);
+   color: rgba(18, 0, 122, 0.9);
   cursor: pointer;
   transition: all 0.2s ease;
   backdrop-filter: blur(10px);
@@ -516,6 +517,7 @@
     padding: 5px 10px;
     font-size: 10px;
     border-radius: 50px;
+    
   }
 }
 
@@ -558,5 +560,6 @@
     padding: 4px 8px;
     font-size: 9px;
     border-radius: 50px;
+
   }
 }
