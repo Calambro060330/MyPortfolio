@@ -275,7 +275,7 @@ const handleContactCLick = () =>{document.getElementById('contact').scrollIntoVi
             <h2>Let's build something <span className="highlight">great</span> together.</h2>
             <p>Feel free to reach out for collaborations or just a friendly hello!</p>
             <ul className="contact-info">
-              <li><i className="fas fa-envelope"></i> randolphcalambro@gmail.com</li>
+              <li><i className="fas fa-envelope"></i><a href=" randolphcalambro@gmail.com"> randolphcalambro@gmail.com</a></li>
               <li><i className="fas fa-location-dot"></i> Iloilo, Philippines</li>
             </ul>
             <div className="social-pills">
