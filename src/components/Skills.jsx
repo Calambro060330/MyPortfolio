@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import { ArrowUpRight, X } from 'lucide-react';
 
-export default function Services({ services }) {
-  const [activeService, setActiveService] = useState('01');
+export default function Skills({ skills }) {
+  const [activeSkill, setActiveSkill] = useState('01');
 
   return (
-    <section id="services" className="section">
-      <h2 className="section-title">TECH STACK</h2>
+    <section id="skills" className="section">
+      <h2 className="section-title">SKILLS</h2>
       <div className="service-list">
-        {services.map((s) => {
-          const isActive = activeService === s.id;
+        {skills.map((s) => {
+          const isActive = activeSkill === s.id;
           return (
             <div 
               key={s.id}
-              onClick={() => setActiveService(isActive ? null : s.id)}
+              onClick={() => setActiveSkill(isActive ? null : s.id)}
               className={`service-item ${isActive ? 'active' : ''}`}
             >
               <div className="service-header">

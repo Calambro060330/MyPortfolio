@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import SelectedWork from './components/SelectedWork';
-import Services from './components/Services';
-import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import TechStacks from './components/TechStacks';
 import FooterCTA from './components/FooterCTA';
 import ContactModal from './components/ContactModal';
 
@@ -18,9 +18,9 @@ export default function App() {
       <div className="portfolio-card-container">
         <Navbar onOpenContact={() => setIsContactOpen(true)} />
         <Hero onOpenContact={() => setIsContactOpen(true)} />
-        <SelectedWork projects={PROJECTS} />
-        <Services services={SERVICES} />
-        <Experience experiences={EXPERIENCES} />
+        <Projects projects={PROJECTS} />
+        <Skills skills={SERVICES} />
+        <TechStacks techStacks={EXPERIENCES} />
         <FooterCTA onOpenContact={() => setIsContactOpen(true)} />
         <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
       </div>

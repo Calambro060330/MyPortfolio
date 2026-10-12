@@ -27,10 +27,6 @@ export default function SelectedWork({ projects }) {
             </button>
           ))}
         </div>
-
-        <button className="pill-link">
-          View All Work <ArrowUpRight size={14} />
-        </button>
       </div>
 
       <div className="project-grid">
@@ -38,17 +34,13 @@ export default function SelectedWork({ projects }) {
           <div key={project.id} className="project-card">
             <div className="card-image-box">
               <img src={project.image} alt={project.title} />
-              <span className="card-tag">{project.tag}</span>
+          
               <div className="hover-arrow-circle">
                 <ArrowUpRight size={20} />
               </div>
             </div>
             <div className="card-info">
               <h3>{project.title}</h3>
-              <div className="card-badges">
-                <span className="badge-tag">{project.category}</span>
-                <span className="badge-tag">{project.studio}</span>
-              </div>
             </div>
           </div>
         ))}

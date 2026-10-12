@@ -1,4 +1,4 @@
-import { ArrowUpRight } from 'lucide-react';
+import React from 'react';
 
 export default function Navbar({ onOpenContact }) {
   return (
@@ -8,9 +8,9 @@ export default function Navbar({ onOpenContact }) {
       </div>
 
       <div className="nav-links">
-        <a href="#work">Work <span className="counter-tag"></span></a>
-        <a href="#services">Service <span className="counter-tag"></span></a>
-        <a href="#experience">Experience <span className="counter-tag"></span></a>
+        <a href="#projects">Projects <span className="counter-tag"></span></a>
+        <a href="#skills">Skills <span className="counter-tag"></span></a>
+        <a href="#techstacks">Techstacks <span className="counter-tag"></span></a>
         <a href="#contact">Contact</a>
       </div>
 

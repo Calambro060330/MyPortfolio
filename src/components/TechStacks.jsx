@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-export default function Experience({ experiences }) {
-  const [hoveredExp, setHoveredExp] = useState(null);
+export default function TechStacks({ techStacks }) {
+  const [hoveredStack, setHoveredStack] = useState(null);
   const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
 
   const handleMouseMove = (e) => {
@@ -13,33 +13,33 @@ export default function Experience({ experiences }) {
   };
 
   return (
-    <section id="experience" className="section">
+    <section id="techstacks" className="section">
       <div 
         className="dark-experience-container"
-        onMouseMove={handleMouseMove}>
-        
+        onMouseMove={handleMouseMove}
+      >
         <div className="dark-box-header">
-          <h2 className="section-title-white"></h2>
+          <h2 className="section-title-white">/TECHSTACKS</h2>
         </div>
 
         <div className="exp-list">
-          {experiences.map((exp, idx) => (
+          {techStacks.map((stack, idx) => (
             <div 
               key={idx} 
               className="exp-row"
-              onMouseEnter={() => setHoveredExp(exp)}
-              onMouseLeave={() => setHoveredExp(null)}
+              onMouseEnter={() => setHoveredStack(stack)}
+              onMouseLeave={() => setHoveredStack(null)}
             >
               <div>
-                <h3 className="exp-company-title">{exp.company}</h3>
-                <span className="exp-role">{exp.role}</span>
+                <h3 className="exp-company-title">{stack.company}</h3>
+                <span className="exp-role">{stack.role}</span>
               </div>
-              <span className="exp-date">{exp.period}</span>
+              <span className="exp-date">{stack.period}</span>
             </div>
           ))}
         </div>
 
-        {hoveredExp && (
+        {hoveredStack && (
           <div 
             className="cursor-preview-box"
             style={{
@@ -47,7 +47,7 @@ export default function Experience({ experiences }) {
               left: `${cursorPos.x}px`,
             }}
           >
-            <img src={hoveredExp.preview} alt={hoveredExp.company} />
+            <img src={hoveredStack.preview} alt={hoveredStack.company} />
           </div>
         )}
       </div>

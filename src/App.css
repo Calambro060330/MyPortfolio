@@ -116,16 +116,19 @@ span{
 }
 
 .hero-title {
-  font-size: clamp(4.5rem, 7vw, 9.5rem);
+
+  font-size: clamp(10rem, 5vw + 1rem, 20rem); 
   font-weight: 900;
   letter-spacing: -0.04em;
+
   display: flex;
   justify-content: center;
   gap: 20px;
+  
   line-height: 0.9;
   position: relative;
-
 }
+
 
 .stroke-text {
   -webkit-text-stroke: 2.5px #18181b;
@@ -133,6 +136,10 @@ span{
   position:relative;
   z-index:2;
 }
+.stroke-text1{
+  z-index:1;
+}
+
 
 .hero-portrait-container {
   position: absolute;
@@ -141,7 +148,7 @@ span{
   transform: translateX(-50%);
   width: 460px;
   max-width: 85%;
-  z-index: 2 ;
+  z-index:2;
   pointer-events: none;
 }
 
@@ -316,20 +323,6 @@ span{
   transform: translate(-50%, -50%) scale(1);
 }
 
-.card-tag {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  background: rgba(0,0,0,0.65);
-  backdrop-filter: blur(4px);
-  color: #fff;
-  padding: 4px 12px;
-  border-radius: 9999px;
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .card-info {
   padding: 24px;
 }
@@ -418,6 +411,7 @@ span{
   color: #ffffff;
   border-radius: 6px;
   padding: 48px;
+  margin:0px;
   position: relative;
   overflow: hidden;
 }
@@ -543,26 +537,6 @@ span{
   object-fit: cover;
 }
 
-.pill-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 18px;
-  background-color: #ffffff;
-  border: 1px solid var(--border-light);
-  border-radius: 9999px;
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text-main);
-  text-decoration: none;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
-  transition: all 0.2s;
-}
-
-.pill-link:hover {
-  border-color: #94a3b8;
-}
-
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -579,7 +553,7 @@ span{
   background-color: #ffffff;
   width: 100%;
   max-width: 480px;
-  border-radius: 28px;
+  border-radius: 6px;
   padding: 32px;
   position: relative;
 }
