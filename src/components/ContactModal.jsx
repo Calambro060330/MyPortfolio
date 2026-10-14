@@ -12,7 +12,7 @@ export default function ContactModal({ isOpen, onClose }) {
         </button>
 
         <h3 style={{ fontSize: '22px', fontWeight: '900' }}>Let's work together</h3>
-        <p style={{ fontSize: '12px', color: '#64748b' }}>Fill out the form below and I'll get back to you within 24 hours.</p>
+        <p style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Fill out the form below and I'll get back to you within 24 hours.</p>
 
         <form onSubmit={(e) => { e.preventDefault(); alert("Message sent!"); onClose(); }}>
           <div className="form-group">

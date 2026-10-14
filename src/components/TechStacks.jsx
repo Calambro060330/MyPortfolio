@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function TechStacks({ techStacks }) {
   const [hoveredStack, setHoveredStack] = useState(null);

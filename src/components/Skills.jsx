@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ArrowUpRight, X } from 'lucide-react';
 
 export default function Skills({ skills }) {
