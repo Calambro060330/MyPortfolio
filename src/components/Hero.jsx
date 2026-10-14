@@ -1,5 +1,5 @@
 import { FaFacebook, FaInstagram, FaGoogle, FaLinkedin } from 'react-icons/fa';
-import TechText from './TechText';
+import TechText from './animations/TechText';
 
 const socialLinks = [
   { href: 'https://www.google.com', label: 'Google', icon: FaGoogle },
