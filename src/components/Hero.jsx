@@ -1,4 +1,5 @@
 import { FaFacebook, FaInstagram, FaGoogle, FaLinkedin } from 'react-icons/fa';
+import TechText from './TechText';
 
 const socialLinks = [
   { href: 'https://www.google.com', label: 'Google', icon: FaGoogle },
@@ -11,8 +12,52 @@ export default function Hero() {
   return (
     <section className="hero-section">
       <div className="hero-title">
-        <span className="stroke-text">RANDOLPH</span>
-        <span className="stroke-text1">CALAMBRO</span>
+        <TechText
+          className="hero-tech-text"
+          text="RANDOLPH"
+          fontWeight={600}
+          fontSize={150}
+          reveal="letter"
+          dashLength={4}
+          dashGap={2}
+          specks={15}
+          fontFamily=""
+          color="#244b3a"
+          accentColor="#101d18"
+          letterSpacing={-0.05}
+          reach={200}
+          softness={0.7}
+          strokeWidth={1.5}
+          speed={1}
+          lineStyle="dashed"
+          selection
+          labels
+          draggable
+          sweep
+        />
+        <TechText
+          className="hero-tech-text"
+          text="CALAMBRO"
+          fontWeight={600}
+          fontSize={150}
+          reveal="letter"
+          dashLength={4}
+          dashGap={2}
+          specks={15}
+          fontFamily=""
+          color="#101d18"
+          accentColor="#244b3a"
+          letterSpacing={-0.05}
+          reach={200}
+          softness={0.7}
+          strokeWidth={1.5}
+          speed={1}
+          lineStyle="dashed"
+          selection
+          labels
+          draggable
+          sweep
+        />
       </div>
 
       <div className="hero-portrait-container">

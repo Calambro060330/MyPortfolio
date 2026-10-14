@@ -147,30 +147,17 @@ iframe {
 }
 
 .hero-title {
-  font-size: clamp(3rem, 8.5vw, 8rem);
-  font-weight: 900;
-  letter-spacing: -0.04em;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
-  gap: 0 20px;
-  line-height: 0.9;
+  gap: 0;
   position: relative;
 }
 
-.hero-title span {
-  white-space: nowrap;
-}
-
-
-.stroke-text {
-  -webkit-text-stroke: 2.5px var(--accent-green);
-  color: transparent;
-  position:relative;
-  z-index:2;
-}
-.stroke-text1{
-  z-index:1;
+.hero-tech-text {
+  width: 100%;
+  height: clamp(110px, 13vw, 170px);
+  margin-inline: auto;
 }
 
 
@@ -680,7 +667,7 @@ iframe {
   }
 
   .hero-title {
-    gap: 0 12px;
+    gap: 0;
   }
 
   .dark-experience-container {
@@ -740,10 +727,11 @@ iframe {
   }
 
   .hero-title {
-    flex-direction: column;
     align-items: center;
-    gap: 5px;
-    font-size: clamp(2.75rem, 10vw, 5rem);
+  }
+
+  .hero-tech-text {
+    height: clamp(90px, 24vw, 130px);
   }
 
   .hero-portrait-container {
@@ -845,10 +833,6 @@ iframe {
   .hero-section {
     min-height: 660px;
     padding: 36px 16px 0;
-  }
-
-  .hero-title {
-    font-size: clamp(2.35rem, 11.5vw, 4.25rem);
   }
 
   .hero-portrait-container {
