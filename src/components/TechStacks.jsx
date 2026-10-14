@@ -19,7 +19,7 @@ export default function TechStacks({ techStacks }) {
         onMouseMove={handleMouseMove}
       >
         <div className="dark-box-header">
-          <h2 className="section-title-white">/TECHSTACKS</h2>
+          <h2 className="section-title-white">TECHSTACKS</h2>
         </div>
 
         <div className="exp-list">
