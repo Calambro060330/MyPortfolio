@@ -7,7 +7,7 @@ import TechStacks from './components/TechStacks';
 import FooterCTA from './components/FooterCTA';
 import ContactModal from './components/ContactModal';
 
-import { PROJECTS, SERVICES, EXPERIENCES } from './data/portfolioData';
+import { PROJECTS, SKILLS, TECHSTACKS } from './data/portfolioData';
 import './App.css';
 
 export default function App() {
@@ -19,8 +19,8 @@ export default function App() {
         <Navbar onOpenContact={() => setIsContactOpen(true)} />
         <Hero onOpenContact={() => setIsContactOpen(true)} />
         <Projects projects={PROJECTS} />
-        <Skills skills={SERVICES} />
-        <TechStacks techStacks={EXPERIENCES} />
+        <Skills skills={SKILLS} />
+        <TechStacks techStacks={TECHSTACKS} />
         <FooterCTA onOpenContact={() => setIsContactOpen(true)} />
         <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
       </div>

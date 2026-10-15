@@ -298,7 +298,7 @@ iframe {
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 32px rgba(16, 29, 24, 0.08);
+  box-shadow: 0 8px 12px rgba(16, 29, 24, 0.08);
 }
 
 .card-image-box {
@@ -412,11 +412,10 @@ iframe {
 }
 
 .service-preview {
-  aspect-ratio: 16/9;
+  aspect-ratio: 16/10;
   border-radius: 6px;
   overflow: hidden;
-  transform: rotate(3deg);
-  box-shadow: 0 10px 20px rgba(16, 29, 24, 0.3);
+  box-shadow: 0 8px 12px rgba(16, 29, 24, 0.3);
 }
 
 .service-preview img {

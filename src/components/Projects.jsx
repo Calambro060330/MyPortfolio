@@ -8,15 +8,14 @@ export default function SelectedWork({ projects }) {
 
       <div className="project-grid">
         {projects.map((project) => (
-          <div key={project.id} className="project-card">
+          <article key={project.id} className="project-card">
             <div className="card-image-box">
-              <img src="./Awesometodos.png"/>
-          
+              <img src={project.image} alt={project.title} />
             </div>
             <div className="card-info">
               <h3>{project.title}</h3>
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </section>
