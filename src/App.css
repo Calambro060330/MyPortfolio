@@ -136,6 +136,54 @@ iframe {
   transform: translateY(-1px);
 }
 
+@keyframes content-enter {
+  from {
+    opacity: 0;
+    translate: 0 16px;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.navbar > .badge-pill,
+.navbar > .btn-black,
+.hero-left-info h2,
+.hero-left-info p,
+.hero-section .social-pill-item {
+  animation: content-enter 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.navbar > .btn-black {
+  animation-delay: 120ms;
+}
+
+.hero-left-info h2 {
+  animation-delay: 180ms;
+}
+
+.hero-left-info p {
+  animation-delay: 300ms;
+}
+
+.hero-section .social-pill-item:nth-child(1) {
+  animation-delay: 240ms;
+}
+
+.hero-section .social-pill-item:nth-child(2) {
+  animation-delay: 340ms;
+}
+
+.hero-section .social-pill-item:nth-child(3) {
+  animation-delay: 440ms;
+}
+
+.hero-section .social-pill-item:nth-child(4) {
+  animation-delay: 540ms;
+}
+
 .hero-section {
   position: relative;
   padding: 50px 48px 0 48px;
@@ -625,6 +673,14 @@ iframe {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .navbar > .badge-pill,
+  .navbar > .btn-black,
+  .hero-left-info h2,
+  .hero-left-info p,
+  .hero-section .social-pill-item {
+    animation: none;
   }
 }
 
