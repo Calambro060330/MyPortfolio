@@ -61,7 +61,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-portrait-container">
-        <img src="./image.png" alt="Randolph Calambro" className="portrait-img" />
+        <img src="./profilehero.png" alt="Randolph Calambro" className="portrait-img" />
       </div>
 
       <div className="hero-footer-grid">

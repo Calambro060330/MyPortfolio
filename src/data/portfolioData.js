@@ -36,22 +36,18 @@ export const SKILLS = [
   },
   {
     id: "03",
-    title: "BRANDING",
-    description: "Crafting distinct visual identity, typography systems, and brand guidelines for startups.",
+    title: "PROBLEM SOLVING",
+    description: "I enjoy digging into user data to figure out exactly why a layout isn't converting, and then building a clean solution.",
     previewImg: ""
   },
   {
     id: "04",
     title: "MOTIONS & ANIMATIONS",
-    description: "Adding fluid web micro-interactions, smooth scroll triggers, and Framer Motion effects.",
+    description: "Adding fluid web micro-interactions, smooth scroll triggers, and Motion effects.",
     previewImg: ""
   }
 ];
 
 export const TECHSTACKS = [
-  { company: "Kumpin Studio", role: "UI/UX & Product Designer", period: "Nov 2025 - Now", preview: "" },
-  { company: "Mikan Team", role: "Creative Director", period: "Aug 2025 - Now", preview: "" },
-  { company: "Microsoft", role: "Interaction Designer", period: "Jan 2022 - Aug 2025", preview: "" },
-  { company: "Facebook", role: "Visual Designer", period: "Mar 2019 - Dec 2021", preview: "" },
-  { company: "Apple", role: "Experience Designer", period: "Feb 2017 - Feb 2019", preview: "" }
+
 ];
