@@ -67,8 +67,8 @@ export const TECHSTACKS = [
 ];
 
 export const CONTACT = {
-  email: 'YOUR_EMAIL_HERE',
-  github: '',
+  email: 'randolphcalambro@gmail.com',
+  github: 'https://github.com/Calambro060330',
   linkedin: '',
-  facebook: '',
+  facebook: 'https://www.facebook.com/randolph.calambro.5/',
 };

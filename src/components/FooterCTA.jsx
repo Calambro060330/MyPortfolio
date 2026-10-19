@@ -1,10 +1,10 @@
-import { FaFacebook, FaInstagram, FaGoogle, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaGoogle, FaLinkedin } from 'react-icons/fa';
 
 const socialLinks = [
   { href: 'https://www.google.com', label: 'Google', icon: FaGoogle },
-  { href: 'https://www.instagram.com', label: 'Instagram', icon: FaInstagram },
+  { href: 'https://www.github.com/Calambro060330', label: 'Github', icon: FaGithub },
   { href: 'https://www.linkedin.com', label: 'LinkedIn', icon: FaLinkedin },
-  { href: 'https://www.facebook.com', label: 'Facebook', icon: FaFacebook },
+  { href: 'https://www.facebook.com/randolph.calambro.5/', label: 'Facebook', icon: FaFacebook },
 ];
 
 export default function FooterCTA({ onOpenContact }) {
