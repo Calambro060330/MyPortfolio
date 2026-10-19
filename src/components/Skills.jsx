@@ -24,9 +24,6 @@ export default function Skills({ skills }) {
               {isActive && (
                 <div className="service-body">
                   <p>{s.description}</p>
-                  <div className="service-preview">
-                    <img src={s.previewImg} alt={s.title} />
-                  </div>
                 </div>
               )}
             </div>

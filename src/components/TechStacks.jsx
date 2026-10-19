@@ -31,10 +31,9 @@ export default function TechStacks({ techStacks }) {
               onMouseLeave={() => setHoveredStack(null)}
             >
               <div>
-                <h3 className="exp-company-title">{stack.company}</h3>
-                <span className="exp-role">{stack.role}</span>
+                <h3 className="exp-company-title">{stack.name}</h3>
               </div>
-              <span className="exp-date">{stack.period}</span>
+              <span className="exp-date">{stack.category}</span>
             </div>
           ))}
         </div>
@@ -47,7 +46,7 @@ export default function TechStacks({ techStacks }) {
               left: `${cursorPos.x}px`,
             }}
           >
-            <img src={hoveredStack.preview} alt={hoveredStack.company} />
+            <img src={hoveredStack.image} alt={hoveredStack.name} />
           </div>
         )}
       </div>

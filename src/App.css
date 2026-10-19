@@ -8,11 +8,8 @@
   --border-light: #dfe8d9;
   --accent-green: #244b3a;
   --accent-green-dark: #101d18;
-  --accent-green-deep: #101d18;
   --accent-green-light: #dfe8d9;
-  --accent-green-sage: #5f8c6d;
 }
-
 
 * {
   box-sizing: border-box;
@@ -41,7 +38,6 @@ iframe {
 
 .portfolio-card-container {
   width: 100%;
-  max-width: 100%;
   background-color: var(--bg-card);
   box-shadow: 0 30px 60px -15px rgba(16, 29, 24, 0.18);
   position: relative;
@@ -107,11 +103,6 @@ iframe {
   background: var(--bg-card);
   color: var(--text-main);
   cursor: pointer;
-}
-
-.counter-tag {
-  color: var(--accent-green-dark);
-  font-size: 11px;
 }
 
 .btn-black {
@@ -198,7 +189,6 @@ iframe {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0;
   position: relative;
 }
 
@@ -241,7 +231,6 @@ iframe {
   display: block;
   object-fit: cover;
   object-position: top center;
-  filter: none;
 }
 
 .hero-footer-grid {
@@ -250,11 +239,14 @@ iframe {
   align-items: flex-end;
   padding-bottom: 40px;
   position: relative;
-  z-index: 3;
+  z-index: 2;
 }
 
 .hero-left-info {
-  max-width: 300px;
+  width: 260px;
+  padding-right: 0 20px;
+  DISPLAY: flex;
+  flex-direction: column;
 }
 
 .hero-left-info h2 {
@@ -317,17 +309,14 @@ iframe {
 }
 
 .section-header-centered {
-  
   position: relative;
   margin-bottom: 50px;
 }
 
 .section-title {
-  position: static;
   font-size: 26px;
   font-weight: 900;
   letter-spacing: -0.02em;
-  
 }
 
 .project-grid {
@@ -346,7 +335,7 @@ iframe {
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 12px rgba(16, 29, 24, 0.08);
+  box-shadow: 0 2px 2px rgba(16, 29, 24, 0.08);
 }
 
 .card-image-box {
@@ -360,33 +349,6 @@ iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s;
-}
-
-.project-card:hover .card-image-box img {
-  transform: none;
-}
-
-.hover-arrow-circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0.8);
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  background-color: var(--bg-card);
-  color: var(--accent-green);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: all 0.3s;
-}
-
-.project-card:hover .hover-arrow-circle {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
 }
 
 .card-info {
@@ -396,21 +358,6 @@ iframe {
 .card-info h3 {
   font-size: 17px;
   font-weight: 700;
-}
-
-.card-badges {
-  display: flex;
-  gap: 8px;
-  margin-top: 12px;
-}
-
-.badge-tag {
-  background-color: var(--bg-card);
-  padding: 4px 12px;
-  border-radius: 9999px;
-  font-size: 11px;
-  color: var(--accent-green-dark);
-  font-weight: 500;
 }
 
 .service-list {
@@ -458,25 +405,11 @@ iframe {
   color: var(--accent-green-light);
   line-height: 1.6;
 }
-
-.service-preview {
-  aspect-ratio: 16/10;
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: 0 8px 12px rgba(16, 29, 24, 0.3);
-}
-
-.service-preview img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 .dark-experience-container {
   background-color: var(--bg-dark);
   color: var(--bg-card);
   border-radius: 6px;
   padding: 48px;
-  margin:0px;
   position: relative;
   overflow: hidden;
 }
@@ -508,6 +441,7 @@ iframe {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
+  padding-bottom:50px;
   border-bottom: 1px solid var(--accent-green);
   transition: background 0.2s;
   cursor: pointer;
@@ -538,11 +472,9 @@ iframe {
   pointer-events: none;
   z-index: 50;
   width: 200px;
-  height: 130px;
-  border-radius: 6px;
+  height: 200px;
+  border-radius: 2px;
   overflow: hidden;
-  border: 2px solid rgba(247, 244, 234, 0.2);
-  box-shadow: 0 20px 30px rgba(16, 29, 24, 0.5);
   transform: translate(-50%, -50%);
   transition: transform 0.1s ease-out;
 }
@@ -602,13 +534,6 @@ iframe {
   border-radius: 9999px;
   font-size: 13px;
   font-weight: 600;
-}
-
-.author-pill img {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  object-fit: cover;
 }
 
 .modal-overlay {
@@ -719,10 +644,6 @@ iframe {
 
   .hero-section {
     padding: 44px 32px 0;
-  }
-
-  .hero-title {
-    gap: 0;
   }
 
   .dark-experience-container {
@@ -846,10 +767,6 @@ iframe {
 
   .service-body {
     grid-template-columns: minmax(0, 1fr);
-  }
-
-  .service-preview {
-    transform: none;
   }
 
   .dark-experience-container {
