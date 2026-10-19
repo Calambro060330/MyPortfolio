@@ -245,6 +245,7 @@ iframe {
 .hero-left-info {
   width: 260px;
   padding-right: 0 20px;
+  
   DISPLAY: flex;
   flex-direction: column;
 }
@@ -256,7 +257,7 @@ iframe {
 
 .hero-left-info p {
   font-size: 13px;
-  color: var(--text-muted);
+  color: var(--text-main);
   margin-top: 6px;
   line-height: 1.5;
 }
